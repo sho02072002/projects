@@ -9,7 +9,7 @@ ul {
 
 .index{
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .top{
@@ -18,31 +18,40 @@ ul {
     background-color: blue;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .top-name{
     font-size: 48px;
+    margin-left: 60px;
 }
 
 .top-menu{
     display: flex;
-    margin-left: 50px;
 }
 
 .top-menu-name{
-    margin-right: 45px;
+    margin-right: 60px;
     font-size: 36px;
 }
 
 .main{
+    width: 100%;
+    height: 100%;
     display: flex;
 }
 
 .side-bar{
     width: 180px;
-    height: 600px;
-    background-color: blueviolet;
-    padding-top: 40px;
+    height: 100%;
+    background-color: rgb(27, 89, 105);
+}
+
+.side-menu{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .side-menu-name{
@@ -52,8 +61,10 @@ ul {
 
 .main-page{
     width: 100%;
-    height: 600px;
+    height: 100%;
+    background-color: darkgray;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
@@ -61,4 +72,25 @@ ul {
 .image{
     width: 260px;
     height: 300px;
+    margin: 25px 50px 0;
+}
+
+.show{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.show-title{
+    width: 100%;
+    height: 60px;
+    background-color: darkblue;
+    border-radius: 10px 10px 0 0;
+}
+
+.show-text{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(219, 219, 246);
+    border-radius: 0 0 10px 10px;
 }
